@@ -1,0 +1,211 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&amp;family=Roboto&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Besnik</title>
+    <script defer="defer" src="/static/js/main.c5be17c0.js"></script>
+    <link href="/static/css/main.03a5b2a5.css" rel="stylesheet">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1045.0" data-gr-ext-installed=""><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg  navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="data:image/png;base64,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"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                            <li class="nav-item"><button class="btn btn-primary Navbar-btn-1">Sign in</button></li>
+                            <li class="nav-item"><button class="btn btn-primary Navbar-btn-2">Sign up</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="Page-1-Body-content container-fluid">
+                <div class="container row">
+                    <div class="col-md-6">
+                        <div class="Page-1-Heading">Search for Homes in your Neighborhood.</div>
+                        <div class="Page-1-Body">Online state agency, the modern way to sell your own home. You can use griffin residential to market your property.</div>
+                        <div class="Page-1-Search-box ">
+                            <form class="row g-3">
+                                <div class="col-md-3"><input type="text" class="form-control-plaintext Page-1-sb-Body" value="Address"></div>
+                                <div class="col-md-3"><input type="text" class="form-control-plaintext Page-1-sb-Body" value="City"></div>
+                                <div class="col-auto"><button type="submit" class="btn btn-primary mb-3">Search</button></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 container Page-1-img-container"><img src="/static/media/Page-1.8a9d5e2ba7444cb11306.png" alt="image"></div>
+                </div>
+            </div>
+            <div class="container-fluid Page-2-Body-Content">
+                <div class="container Page-2-Header-container"><img src="/static/media/Page-1-footer.e933dc4a52a8ecf7482b.png" alt="Page 2 Header"></div>
+                <div class="container Page-2-Heading">What Can We Help You Find?</div>
+                <div class="container row Page-2-Cards-Container">
+                    <div class="container Page-2-Card col-md-4">
+                        <div class="Page-2-Card-Img"><img src="data:image/png;base64,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"
+                                alt="Card Image"></div>
+                        <div class="Page-2-Card-Heading">Buy a Home</div>
+                        <div class="Page-2-Card-Body">With over 1 million+ homes for sale available on the website, Trulia can match you with a house.</div>
+                    </div>
+                    <div class="container Page-2-Card col-md-4">
+                        <div class="Page-2-Card-Img"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAABjCAYAAABDooR+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAVmSURBVHgB7Z1fTBxVFId/dxaolC7QNqVJQSSYatNC4ksTqiY2UBMDBpq+scaUFxLtg6EmSqsxWRIj1QdjeODFFNqH0sRorFrbkojRWPShTVMUUNMKK0Lr0oDLEgrsv3FmFbJdFtgts3fmzJ4vYVnuDJsMX84959y5ywr8z0G3mjXmRHk4gu0OFdthI1RgRrum0dutYhw2Q+gPJR+quUoQT2cJ5MLOqJgPZOPH8dfFPGyCEn3IBHk62jXmaNeqzzawCUrx+2pJRshbQrtWPVXAJig5qn0uJln0PA+boAgF+cgw7FSkkcoFc9e7K0P3hiuUzdsmnc+d7ANDR+Bsf0dV4Hbv20s/T40fceWU7O/JdJEKiBDwfNf8wEBosSjgudoyde7I6dnv22uQoZAQGBWkCUt4MMNFWl7gwp9XiwLj11zrnpihIi0vcPHnT+pjo6/AmYevutrR2LCKowwTaWmBevSFpv9oiB175eUGPLu/Ep3vHsdA7+mMFynKP1BfhEXxfd7cEvbfWf7jlxYXYeBK14rzxu54caqzB+e/WKMgzdo0GVu1jrwpLsIGOLY+734CFkRvG0J3bx6NHXuvtRmVe1YuHBU4t6Cu+gBch2swMzuHwd9HV75gJJwX9o1VzQ99dij8z8jc/Vt9vbABlo1AfeqLzX0VT5bjh087kvrdpCIS8ERUtM0OXzoDwlhSoJ6z9PwVOzbQ24XSXUVIhUwQabkiJlHboBcqqcrTKd21c/1iByhTBLoL9tWOOvfWNoEY1hN446wrdurUC5cTx17CRrCzSEsJ1KMvturUaWw49FDRlwg7irRUDky2bTAKO+RIy0SgXrjER1/rq+uvoG0EO0SkZQTGFy7PaKstLm36lAFlkZaYQo1qG4yC0tRqegQa2TYYBaWINF9gGtoGo6Ag0lSB6W4bjMLKIk3NgbLbBqOwUo40LQLNaBuMwkoRaZpAM9sGo7CCSFOmUKu1DUZhxtQqPQKt2DYYhRkRKV+ghdsGo5ApUqpAKm2DUcgQKTUHUm0bjGIpR/ZfH8TYhHe101LKkdI2NemFS8g79EDuW22Tkl1Z2nxVV10Vff7X3cnoJqw4CoXA4UeKdjfl7Ng9E7h36+ZaryktAuM3Keltw8WudmQyekT2XOjD+S/71oxIVcUZJRI56/vtiif+oBSB/m/eqQ9O3GgGsxE8IqIe9/16+ULsoJQiJugdagCzUcpURXTHD0oRKCKhPDAGoPriR6QIzC458DEcmybBPDwCPqGKthXDVtnUNHP5jcbQ5PBylXrimMs2Df6pznPR9mEJrShp8w9fcsMAyLxDl0kMCyQOCyQOCyQOCyQOCyQOCyQOCyQOCySObf7xKSkEHtuy54WDyZyqCfIkuo0Uc5yRjQCaHA6lKZlzVe0rf2+tW1t6a0t0nKdQAmh36FtWO8YCaVC42gGeQk2gtHgnHl1nJ17/tV+QDCzQBBrra6K3y9Zia2Vyd/l4CiUOCyQOCySOEha4D4YsSnYYXjBkURZyMBJREARDEkX/JK9gGENgSBItYiZaxfhiCD9xPqTHciM/8ZaY0r59u61Dzc9fwOagKrfJD8/+XQ0mZVZImn5N+KcBPySjrbj7hQCTItwHEocFEocFEocFEocFEocFEocFEocFEkfqaotzX91RReAjqGohGEOQKlCB6oYKlmcgsqfQMjCGwjmQOKZuK/QNfr38vLCiDkzqcAQShwUShwUShwUShwUShwUShwUShwUShwUShwUShwUShwUShwUShwUShwUSJy1vJ+G9L1LwRBBxp0Wg/lFq4O0TMvClaQoVHHlSUH0OpIHcHY97tcn5KRaZRv77JJeT/wJLD8df6MXbVAAAAABJRU5ErkJggg=="
+                                alt="Card Image"></div>
+                        <div class="Page-2-Card-Heading">Rent a Home</div>
+                        <div class="Page-2-Card-Body">With 35+ filters and keywords search, Trulia can find you a home.</div>
+                    </div>
+                    <div class="container Page-2-Card col-md-4">
+                        <div class="Page-2-Card-Img"><img src="data:image/png;base64,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"
+                                alt="Card Image"></div>
+                        <div class="Page-2-Card-Heading">See Neighborhood</div>
+                        <div class="Page-2-Card-Body">More with neighborhood insight than any other real estate site.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container Page-3-Body-Content">
+                <div class="container row Page-3-Header">
+                    <div class="container col-md-5">
+                        <div class="Page-3-Heading">Our trending Latest Property.</div>
+                        <div class="Page-3-Body">Our unique process gives you peace of mind from home rent to services.</div>
+                    </div>
+                    <div class="container col-md-2"></div>
+                    <div class="container col-md-5">
+                        <div class="button-box row ">
+                            <div class="col-md-6 container"><button class="btn-proto btn ">Proto type</button></div>
+                            <div class="col-md-6 container"><button class="btn-see-all btn btn-primary">See All Property</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid Page-3-Card-Container">
+                    <div class="container row">
+                        <div class="Page-3-Card-Row row">
+                            <div class="Page-3-Card col-md-6 row">
+                                <div class="col-md-5"><img src="/static/media/page-3-card-1.5b20a2b8c24a0f1e6bfd.png" alt="card image"></div>
+                                <div class="col-md-7 Page-3-Card-Text">
+                                    <div class="Page-3-Card-Price my-2">$259,000</div>
+                                    <div class="Page-3-Card-Heading my-1">Casa Alda</div>
+                                    <div class="Page-3-Card-Body">Co Rd Tribune</div>
+                                    <div class="Page-3-Card-Icons row my-2">
+                                        <div class="col-md-6"><i class="fa fa-bed Page-3-Card-Icon"> 2 Beds</i></div>
+                                        <div class="col-md-6"><i class="fa fa-bath Page-3-Card-Icon" aria-hidden="true">2 Baths</i></div>
+                                    </div>
+                                    <div class="Page-3-Card-Button my-2"><button class="Page-3-Card-Btn btn btn-primary">View Details</button></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 Page-3-Card row">
+                                <div class="col-md-5"><img src="/static/media/page-3-card-2.9eed78482a57fc60849e.png" alt="card image"></div>
+                                <div class="col-md-7 Page-3-Card-Text">
+                                    <div class="Page-3-Card-Price my-2">$229,000</div>
+                                    <div class="Page-3-Card-Heading my-1">Langas Beach House</div>
+                                    <div class="Page-3-Card-Body">37 Highland Ave</div>
+                                    <div class="Page-3-Card-Icons row my-2">
+                                        <div class="col-md-6"><i class="fa fa-bed Page-3-Card-Icon"> 2 Beds</i></div>
+                                        <div class="col-md-6 "><i class="fa fa-bath Page-3-Card-Icon " aria-hidden="true">2 Baths</i></div>
+                                    </div>
+                                    <div class="Page-3-Card-Button "><button class="Page-3-Card-Btn my-2 btn btn-primary">View Details</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container row">
+                        <div class="Page-3-Card-Row row">
+                            <div class="Page-3-Card col-md-6 row">
+                                <div class="col-md-5"><img src="/static/media/page-3-card-3.ccdfc29c13621a26f20c.png" alt="card image"></div>
+                                <div class="col-md-7 Page-3-Card-Text">
+                                    <div class="Page-3-Card-Price my-2">$289,000</div>
+                                    <div class="Page-3-Card-Heading my-1">Super Delux Home</div>
+                                    <div class="Page-3-Card-Body">1398 Linford st.</div>
+                                    <div class="Page-3-Card-Icons row my-2">
+                                        <div class="col-md-6"><i class="fa fa-bed Page-3-Card-Icon"> 2 Beds</i></div>
+                                        <div class="col-md-6"><i class="fa fa-bath Page-3-Card-Icon" aria-hidden="true">2 Baths</i></div>
+                                    </div>
+                                    <div class="Page-3-Card-Button my-2"><button class="Page-3-Card-Btn btn btn-primary">View Details</button></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 Page-3-Card row">
+                                <div class="col-md-5"><img src="/static/media/page-3-card-4.3822ea0900f84642a77b.png" alt="card image"></div>
+                                <div class="col-md-7 Page-3-Card-Text">
+                                    <div class="Page-3-Card-Price my-2">$329,000</div>
+                                    <div class="Page-3-Card-Heading my-1">Clington Villa</div>
+                                    <div class="Page-3-Card-Body">365 Albert st.</div>
+                                    <div class="Page-3-Card-Icons row my-2">
+                                        <div class="col-md-6"><i class="fa fa-bed Page-3-Card-Icon"> 2 Beds</i></div>
+                                        <div class="col-md-6 "><i class="fa fa-bath Page-3-Card-Icon" aria-hidden="true">2 Baths</i></div>
+                                    </div>
+                                    <div class="Page-3-Card-Button my-2"><button class="Page-3-Card-Btn btn btn-primary">View Details</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid Page-4-Body-Content">
+                <div class="container-fluid row">
+                    <div class="col-md-4 Page-4-Grp-Img-Side"><img class="Page-4-Grp-Img-Side" src="/static/media/grp-img-right.49c462f0002d965a323b.png"></div>
+                    <div class="col-md-4 Page-4-Center-Section">
+                        <div class="Page-4-Heading">TESTIMONIALS</div>
+                        <div class="Page-4-Body">Our clients send us a bunch of smiles with our service and we love them</div>
+                        <div class="Page-4-Center-Img-Container"><img src="/static/media/grp-img-center.ea280f048cd589db5f3b.png"></div>
+                        <div class="Page-4-Body">"We are very pleased with the way Besnik handled our purchase of Lake home He was prompt friendly and very knowledgeable. He followed up on any and all concerns."</div>
+                        <div class="Page-4-Nametag">Becky Nelson</div>
+                        <div class="Page-4-Rating"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAANCAYAAADYKCLAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGmSURBVHgB7ZZBTsJAFIbfvHZj4oIjTPACcANuIJzA7oCVsHOBhMgBlAUhrMST6BG4gNobyE7Edp5vSiW0nYmQ6mbin7TTzrx+Td68ee8BWPQ5kA34BbnKmc1mDdsa2hY8xHvqyQqUlKscZA7LyDE6NRqcNXmQ0SnUoIRc5czn84SzXq+NHKNTPUHnevQ9vIAScpUjhEg4nucZOYJGUiqFQWYS4JIHHdorApjsr21QLU5GYZgHucrh3Cl5yHD46O84SqlJ7pOF0PfoWgYo8DY1tGmlSPT98fPCZuAqhx0bsCN/5ijV73a7W6dq6Z0lhY/8KIv2tPxAapl2smDpKEdHLDvWyOF0sIzjuMUODZP3vIEaVt8gtyN48yLgSLnK4SJV4LTb7QwnU6jSHq4Q4sf2dq5y0t60YpnfKeNUX6RVkegpQlUnoIetETbhCLnK+a72pDlRVOccmnD4+Gc4/v4LCaoRJ21v/HqXTgXxsBoKTKpmDw6Usxwi3Zf2O53OjsNRGqbdQJFDV1JuRtLYzOpk/84XHPJjRzm6UE2n05ptLW29/vVX+gJ/J25/yl8gCAAAAABJRU5ErkJggg=="></div>
+                    </div>
+                    <div class="col-md-4 Page-4-Grp-Img-Side"><img class="Page-4-Grp-Img-Side " src="/static/media/grp-img-left.622b720ed2fe861c5a4d.png"></div>
+                </div>
+            </div>
+            <div class="Footer-Body-Content">
+                <div class=" row Footer-Contact-Section">
+                    <div class="container col-md-7 Footer-Section-1-Text">
+                        <div class="container  Footer-Heading-1">Talk to a Redfin Agent</div>
+                        <div class="container Footer-Body-1">Start your search with an expert local agent-there's no pressure or obligation.</div>
+                    </div>
+                    <div class="container col-md-5">
+                        <div class="input-group Footer-Search-Box">
+                            <div class="form-outline "><label class="form-label form-label-footer" for="form1">Where do you want to look for?</label><input type="search" id="form1" class="form-control Footer-Search" placeholder="City,Address,ZIP"><button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container row my-5 mx-auto">
+                    <div class="container col-md-3 text-center">
+                        <div class="Footer-Heading-2">Popular searches</div>
+                        <div class="Footer-Body-2">Appartment for rent<br>Appartment Low to hide<br>Office to buy<br>Office for rent</div>
+                    </div>
+                    <div class="container col-md-3 text-center">
+                        <div class="Footer-Heading-2">About us</div>
+                        <div class="Footer-Body-2">Our story<br>Team Members<br>Careers<br>Contact us</div>
+                    </div>
+                    <div class="container col-md-3 text-center">
+                        <div class="Footer-Heading-2">Quick Links</div>
+                        <div class="Footer-Body-2">Terms of use<br>Privacy Policy<br>Contact Support<br>FAQ's</div>
+                    </div>
+                    <div class="container col-md-3 text-center">
+                        <div class="Footer-Heading-2">Support</div>
+                        <div class="Footer-Body-2">Help Center<br>Loan support<br>Privacy Policy<br>Management</div>
+                    </div>
+                </div>
+                <div class="Footer-Section-3 row container">
+                    <div class="Footer-Section-3-Logo col-md-3 container"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAAAZCAYAAABNcRIKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAeqSURBVHgB5VldUhtHEJ6exbECGDYn8PKQKhucsjgB4iFVRn6wOAFwAuAEwAmMTwA+AfghElV+QDkBSgWwq/KAfIIsOLaJrJ1O98z+zMyuovIr7iqb3Z2Znu6e/vl6BMKi6UfPGjKQawDQEojx9UV7TnynFEaNMJmstSTAmgBZR6Ve31x2tv5vzUT46FmkJBlQwhYZMNRfETU/8R1S5lBIDiUtewCIp+PWTmAQnAGgyA35HVHmfQIh/viucxzON+sI4lQPGof6JpKQJIvX5+2faO0rdwh74g7Tg4Xnazg9dSVBHkgJRzPzzd34st0DUMuU3kAIcPRHxOtxPGX8/qSfPsfeWCzuKIX1VihB7LvRaJ7j85OueVee/nKsc8mCF0b2AHnqH+Ku0mAQOYYEEUuF++4k6aQ9Cvq+GEO5MUGKh8Jd3Rd3lEw4iz1SsktGOgQllq0IzSiyXwKl+mPYionikU+iSLpUye50zozP27ujxjgN4NeBW5Brt98Q5gLrzkiS3NmcOY6Gw9u69ymOe92x9tCeqSGBv/qvtz2GDmpycpOgU4M+RYS2ujJRexUh4ZDBavCCSmIr/dRXCK8/XrYP/bl6j6kf1wmdLVHuIiUgpnzWVwLeVM3XvKVcYplQiTc37zp5rnvweIVAtljL+FDeP765bO9V7pnrBSFV70V7nJqWUDgGKaKU96CUGNGsp8B5FwweR4SuNmYSYCQVOIsZzGMgj+grC2Y2EWKdvrVobLHKoGYNHNDMhjcUkZKNmccroa38zJPmJh3QbiqUrU2dQqY1u9DcQYWv5Jcvh9rgQrwoeDN6UQxX9tnAQSAPhJfnKC/ye25MMw92aM9GrhFR7XHz4e279od8XQJ1Wx67GNNB7uRRDGDthaHMFzsEgozG4NV3d20zlPCy9NEY/9Qoi30UuM1/Ha4SNrNnMuQOeWMKT7AP+HWR3hcJNNt4lw4Bujg1eQaC9ywdkuYTGFkjUSErG4ofZuebR0Eun0u2IY32XrdjFePri99Yxl2XA8mf4KqsXGyMGJHHvGIF6dlNvuAKVBiSFSLGn74s3lx09sn1X3ubxtl84rubf6UQiS/f9rjK3py3t0ylpW1Q7OnKK3EbPn3+iauvI4YMljQfgjZclf3DY6rd/3yd6rgHiZqjQ/ZlKhcWgMh+tYsxR5MtO8vE+nKkmgIE5VaSDRlTY592BdvecH7imp3lGXRCy3E/Tdbgwi1Mu4rhRCkcG2zg7J0rLR8i7b2r3//sHGue1PY5UmRePVR0eO0NMqjXxRWFg/XQqQmh77LAD6JMkfNGlZzz7MzC85c6moxuMcXv9vVFJ9c3rebSC2fsx/YNyURtJCzgMCs2x26WS7X3CdGweXLx0uyGJQyrPfvBfHM9+8DKlzarOnQ+vJEFsRLeeTzczoaLcdYNZaKIwWRkUg2mNiFvpAOMLzoO0JeMqbzFWkD7Pe4dl2AB5xleSye1noueJuqQKh5OBGeiOOGerTT/hVK46SJ1QEXnKvz516pczZJF9huHtmNI9MYrujgqFE/dOUPHmEOpSgdGNSKLvNj07p3KA5QVmKrvTzQGd9h39Z/BoCXskACYnV1YOaXNj4Sp0DHnP4Yepc3v3d/yik1GEf5w74wq/1bVmCN8opwDKRsq6ZZZuFEYDN08K9EvxhhbrWeolGyIESQnlIy8xf3SLO5lLVJovEp51Z6hk66WqRHhn89zozoN9nZTbNRy1Z5U+V9Sqmhk7yb8PB7vs0uJXB3n0H1DVURhzHja2RdhyX43RbQofKTXjp3fnd1VNaRwSBnQnrHvf7w8OTSM0UcBPYZEmRHzQuSRW2xOuhQ2c1kFd/aV0MqeGQu7o24+TA3lGNw3VDkKKxzHy8ucBkhPRzaDpcsk/dsi4lbyAMJ4OT4krywYe9WVclSPIZFvRPYqnQvJ0zSMonxqex0TG78c9jCbP3lY2K/CFYYqFR8/hKsruZcGUMbmWs6GZdDw5dcryb187yEI0Mwtb1drTviZV6bvLtgF0QrrDedk6dJ1xyRw5PYhVgF1EJSDqHof+HMRXByJQv2e8y5hYbcKl3OdoSkrPfghTKv+5v+nU8NUVHJxC/LK6OZ7J8mfRhivZ13AAG6uvB7syIxcJN8eAedl2+vCJ88aiPLUWYd4nHALGEA99ehIr03UairElT0XFG5nxYkP0eRdPcjhn6OK2YXnZ3YYKxQbdu9Oh7ZPh7kpXGH6jABg8HWRQ56LY7kDKuYM7wdh4Oljbt0zGbz1bCPkS2SIqO3dlgamqFK+0kbMDcko3zUkE7t/CeLQD1Hctpn2L+2ieC0brFaLnTxFcznkWUj6d5UZknlSV7HqCVR4HhW40v1i1W9YdGGhUG0UuRMiUUFcBHlORSXv2tFD8G5DX8Q4e4LWke8PNGhn8Ekt22opIVegfJ9o7Xo1xKEDYCG5i0rXcgVnvOm0dEaghlE0XUM8nQjIQ5W6nQwl+JU8sDobC03YaYnyRs+Wjw3NxS//qSLHqUYOrbd19VZ2PFdHEB6Fv6y0RMIKyl5lFzKCdP64RyfLa5Xojrum4/ZMTNfqNDfSH8asYYOOk0fLTr/3F7/jeONc8ZN/G6Pm6HEqZKPW5/OemBzrz/sP5gxel7pN2NUAAAAASUVORK5CYII="></div>
+                    <div class="col-md-6"></div>
+                    <div class="Footer-Section-3-CopyRt col-md-3 container">© 2021 Besnik, All Rights Reserved<br>Website created by Anas Jamal</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
